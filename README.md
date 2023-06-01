@@ -27,7 +27,7 @@ To write a python program for simulating ARP protocols using TCP
 
 ## PROGRAM :
   ## CLIENT :
-  ```
+  ```PYTHON 3
   import socket
   s=socket.socket()
   s.bind(('localhost',8000))
@@ -43,7 +43,7 @@ To write a python program for simulating ARP protocols using TCP
   ```
   
   ## SERVER :
-  ```
+  ```PYTHON 3
   import socket
   s=socket.socket()
   s.connect(('localhost',8000))
