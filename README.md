@@ -1,12 +1,12 @@
 # EX-4 IMPLEMENTATION OF ADDRESS RESOLUTION PROTOCOL (ARP)
 
-# DATE : 27/03/2023
+## DATE : 27/03/2023
 
-# AIM :
+## AIM :
 To write a python program for simulating ARP protocols using TCP
 
-# ALGORITHM :
-  # CLIENT :
+## ALGORITHM :
+  ## CLIENT :
   ```
   1. Start the program
   2. Using socket connection is established between client and server.
@@ -15,7 +15,7 @@ To write a python program for simulating ARP protocols using TCP
   5. Server returns the MAC address to client.
   ```
   
-  # SERVER :
+  ## SERVER :
   ```
   1. Start the program
   2. Accept the socket which is created by the client.
@@ -25,8 +25,8 @@ To write a python program for simulating ARP protocols using TCP
   5. Map the IP address with its MAC address and return the MAC address to client.
   ```
 
-# PROGRAM :
-  # CLIENT :
+## PROGRAM :
+  ## CLIENT :
   ```
   import socket
   s=socket.socket()
@@ -42,7 +42,7 @@ To write a python program for simulating ARP protocols using TCP
       c.send("Not Found".encode()) 
   ```
   
-  # SERVER :
+  ## SERVER :
   ```
   import socket
   s=socket.socket()
@@ -53,16 +53,16 @@ To write a python program for simulating ARP protocols using TCP
     print("MAC Address",s.recv(1024).decode())
   ```
 
-# OUTPUT :
-# CLIENT OUTPUT :
+## OUTPUT :
+## CLIENT OUTPUT :
 
 ![4a](https://github.com/JoshuaSamuel7/19CS406-EX-4/assets/118343296/affe5802-6ea2-44b5-a011-9807faf19b03)
 
-# SERVER OUTPUT : 
+## SERVER OUTPUT : 
 ![4b](https://github.com/JoshuaSamuel7/19CS406-EX-4/assets/118343296/0a274caf-1a8c-4acd-9749-b78b67b28214)
 
 
-# RESULT :
+## RESULT :
 Thus, the python program for simulating ARP protocols using TCP was successfully
 executed.
 
