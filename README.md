@@ -55,10 +55,11 @@ To write a python program for simulating ARP protocols using TCP
 
 # OUTPUT :
 # CLIENT OUTPUT :
-![Screenshot (56)](https://github.com/ArpanBardhan/EX-4/assets/119405037/4e94f600-f6a6-45cd-8041-3e960e499e24)
+
+![4a](https://github.com/JoshuaSamuel7/19CS406-EX-4/assets/118343296/affe5802-6ea2-44b5-a011-9807faf19b03)
 
 # SERVER OUTPUT : 
-![Screenshot (57)](https://github.com/ArpanBardhan/EX-4/assets/119405037/13156618-d8ea-4597-a448-c980a6557538)
+![4b](https://github.com/JoshuaSamuel7/19CS406-EX-4/assets/118343296/0a274caf-1a8c-4acd-9749-b78b67b28214)
 
 
 # RESULT :
